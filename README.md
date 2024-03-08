@@ -18,17 +18,24 @@ Para este proyecto debes cambiar en tu archivo .env la siguiente variable de ent
 To run this project, you will need to add the following environment variables to your .env file (English).
 
 `DB_DATABASE = laravelCRUD`
-## Correr en local
+
+## Ejecutar en local
 
 - Descarga e Instala XAMPP.
 
-- Clona este proyecto en la carpeta de htdocs de XAMPP.
+- Clona este proyecto en la carpeta de htdocs de XAMPP:
 
 ```bash
   git clone https://github.com/MejiaAle01/LaravelCRUD.git
 ```
 
-- Abre una terminal (Linea de comandos para Windows), bash (Mac OS y Linux), y entra a la carpeta:
+- Crea la base de datos en tu gestor de base de datos de preferencia:
+
+```bash
+  CREATE DATABASE laravelCRUD
+```
+
+- Abre una terminal (Linea de comandos o Powershell para Windows), bash (Mac OS y Linux) y entra a la carpeta:
 
 ```bash
   cd laravelCRUD
@@ -57,7 +64,7 @@ Para ejecutar este proyecto utiliza el siguiente comando:
 **Servidor:** PHP 8.3, MySQL.
 
 
-## Lessons Learned
+## Lecciones aprendidas
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
